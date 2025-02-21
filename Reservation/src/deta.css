@@ -2,13 +2,14 @@ form{
     display: flex;
     flex-direction: column;
     margin-bottom:20px;
+    margin-left:20px;
 }
 
 .name,.number,.people,.date-select,.time{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    width:400px;
+    width:30vw;
 }
 
 label{
@@ -20,7 +21,7 @@ label{
 
 
 .name input, .number input, .date-select input{
-    height:30px;
+    height:5vh;
     font-size:13px;
     border-radius: 2px;
     border:none;
@@ -44,9 +45,9 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:13rem;
+    width:100%;
     overflow: hidden;
-    height:3rem;
+    height:100%;
     background-size: 300% 300%;
     backdrop-filter: blur(1rem);
     border-radius: 5rem;
