@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="deta.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="head.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="head">
+            <h1>RESERVATION</h1>
+        </div>
+        <div class="details">
+            <form>
+                <div class="name">
+                    <label>Name</label>
+                    <input type="text" maxlength="30" spellcheck="false" placeholder="Name" required>
+                </div>
+                <div class="number">
+                    <label>Number</label>
+                    <input type="tel" maxlength="12" placeholder="Phone Number" required>
+                </div>
+                <div class="people">
+                    <label>Number of People</label>
+                    <select name="peopleNumber">
+                        <option value="" disabled selected hidden>
+                            Number of People
+                        </option>
+                        <option value="1-Person">
+                            1 Person
+                        </option>
+                        <option value="2-Person">
+                            2 People
+                        </option>
+                        <option value="3-Person">
+                            3 People
+                        </option>
+                        <option value="4-Person">
+                            4 People
+                        </option>
+                        <option value="5-Person">
+                            5 People
+                        </option>
+                        <option value="6-Person">
+                            6 People
+                        </option>
+                        <option value="7-Person">
+                            7 People
+                        </option>
+                        <option value="8-Person">
+                            8+ People
+                        </option>
+                    </select>
+                </div>
+                <div class="date-select">
+                    <label>Date</label>
+                        <input placeholder="Date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                </div>
+                <div class="time">
+                    <label>Time</label>
+                    <select name="times" required>
+                        <option value="" disabled selected hidden>Time</option>
+                        <option value="select-time">7:00 AM</option>
+                        <option value="select-time">7:30 AM</option>
+                        <option value="select-time">8:00 AM</option>
+                        <option value="select-time">8:30 AM</option>
+                        <option value="select-time">9:00 AM</option>
+                        <option value="select-time">10:00 AM</option>
+                        <option value="select-time">10:30 AM</option>
+                        <option value="select-time">11:00 AM</option>
+                        <option value="select-time">11:30 AM</option>
+                        <option value="select-time">12:00 PM</option>
+                        <option value="select-time">12:30 PM</option>
+                        <option value="select-time">1:00 PM</option>
+                        <option value="select-time">1:30 PM</option>
+                        <option value="select-time">2:00 PM</option>
+                        <option value="select-time">2:30 PM</option>
+                        <option value="select-time">3:00 PM</option>
+                        <option value="select-time">3:30 PM</option>
+                        <option value="select-time">4:00 PM</option>
+                        <option value="select-time">4:30 PM</option>
+                        <option value="select-time">5:00 PM</option>
+                        <option value="select-time">5:30 PM</option>
+                        <option value="select-time">6:00 PM</option>
+                        <option value="select-time">6:30 PM</option>
+                        <option value="select-time">7:00 PM</option>
+                        <option value="select-time">7:30 PM</option>
+                        <option value="select-time">8:00 PM</option>
+                        <option value="select-time">8:30 PM</option>
+                        <option value="select-time">9:00 PM</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button id="reserve-btn" type="button">
+                        <strong>FIND A TABLE</strong>
+                        <div id="container-stars">
+                            <div id="stars"></div>
+                        </div>
+                        <div id="glow">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="extra">
+        This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+    </div>
+    <script src="reserve.js"></script>
+</body>
+</html>

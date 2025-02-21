@@ -1,0 +1,21 @@
+.head{
+    width:fit-content;
+}
+
+h1{
+    margin-top:10px;
+    margin-bottom:0;
+    color:white;
+    border-bottom: solid 2px white;
+}
+
+header{
+    font-size:30px;
+    color:white;
+    margin-top:20px;
+}
+
+h2{
+    color:white;
+}
+
